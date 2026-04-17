@@ -1,0 +1,15 @@
+.movies-section {
+  padding: 80px 40px;
+  background: #111;
+  color: white;
+}
+
+.movies-grid {
+  display: flex;
+  flex-direction: row; /* garante linha */
+  gap: 50px;
+}
+
+.movie-card {
+  width: 200px;
+}
