@@ -1,4 +1,4 @@
-import "./Quotebox.css";
+import "../styles/Quotebox.css";
 
 const words = [
   "Say Hello To My Little Friend.",

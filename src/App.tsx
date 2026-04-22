@@ -1,9 +1,10 @@
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import Movies from "./components/Movies";
 import Timeline from "./components/Timeline";
 import Quotebox from "./components/Quotebox";
 import Awards from "./components/Awards";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Timeline/>
       <Quotebox/>
       <Awards/>
+      <Footer/>
     </>
   );
 }

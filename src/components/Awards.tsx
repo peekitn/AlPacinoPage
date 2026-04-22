@@ -1,4 +1,4 @@
-import "./Awards.css";
+import "../styles/Awards.css";
 import oscarImg from "../assets/oscar.png";
 import baftaImg from "../assets/bafta.png";
 import goldenImg from "../assets/GoldenGlobe.png";

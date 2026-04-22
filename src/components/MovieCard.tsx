@@ -1,5 +1,5 @@
 {/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
-import "./MovieCard.css";
+import "../styles/MovieCard.css";
 
 export default function MovieCard({ title, year, image }) {
   return (

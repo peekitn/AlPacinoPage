@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import hero from "../assets/Hero.jpg";
-import "./Hero.css";
+import "../styles/Hero.css";
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);

@@ -5,7 +5,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 
-import "./Timeline.css";
+import "../styles/Timeline.css";
 
 export default function PacinoTimeline() {
   return (

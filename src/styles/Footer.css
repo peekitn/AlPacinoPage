@@ -1,0 +1,47 @@
+.footer {
+  background: #000;
+  color: #aaa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* título */
+.footer-title {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* descrição */
+.footer-text {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+/* links */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+/* copyright */
+.footer-copy {
+  font-size: 0.8rem;
+  color: #666;
+}

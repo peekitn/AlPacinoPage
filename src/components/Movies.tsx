@@ -1,5 +1,5 @@
 import MovieCard from "./MovieCard";
-import "./Movies.css"
+import "../styles/Movies.css"
 import godfather from "../assets/TheGodfather.jpg";
 import godfather2 from "../assets/TheGodfather2.jpg"
 import godfather3 from "../assets/TheGodfather3.jpg"
