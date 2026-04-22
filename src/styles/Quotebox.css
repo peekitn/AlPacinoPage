@@ -27,10 +27,12 @@
 }
 
 @keyframes scroll {
+  /* translateX é move elementos horizontalmente  */
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-50%);
+    /* aqui faz com que as frases vao da direita para esquerda  */
   }
 }
