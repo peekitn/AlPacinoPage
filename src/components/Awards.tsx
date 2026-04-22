@@ -1,8 +1,13 @@
 import "./Awards.css";
+import oscarImg from "../assets/oscar.png";
+import baftaImg from "../assets/bafta.png";
+import goldenImg from "../assets/GoldenGlobe.png";
+import emmyImg from "../assets/Emmy.png";
 
 const awards = [
   {
     title: "Oscar",
+    image: oscarImg,
     wins: "1 vitória",
     nominations: "9 indicações",
     description:
@@ -10,6 +15,7 @@ const awards = [
   },
   {
     title: "BAFTA",
+    image: baftaImg,
     wins: "3 vitórias",
     nominations: "5 indicações",
     description:
@@ -17,6 +23,7 @@ const awards = [
   },
   {
     title: "Golden Globes",
+    image: goldenImg, 
     wins: "4 vitórias",
     nominations: "18+ indicações",
     description:
@@ -24,6 +31,7 @@ const awards = [
   },
   {
     title: "Emmy",
+    image: emmyImg,
     wins: "2 vitórias",
     nominations: "várias indicações",
     description:
@@ -39,7 +47,7 @@ export default function Awards() {
       <div className="awards-grid">
         {awards.map((award, index) => (
           <div key={index} className="award-card">
-            <div className="award-icon">🏆</div>
+            <img src={award.image} alt={award.title} className="award-icon" />
 
             <h3>{award.title}</h3>
 
