@@ -16,7 +16,7 @@ const awards = [
   {
     title: "BAFTA",
     image: baftaImg,
-    wins: "3 vitórias",
+    wins: "1 vitórias",
     nominations: "5 indicações",
     description:
       "Reconhecido pela academia britânica por performances marcantes, incluindo The Godfather Part II e Dog Day Afternoon.",
@@ -24,8 +24,8 @@ const awards = [
   {
     title: "Golden Globes",
     image: goldenImg, 
-    wins: "4 vitórias",
-    nominations: "18+ indicações",
+    wins: "5 vitórias",
+    nominations: "20 indicações",
     description:
       "Recebeu diversos Globos de Ouro ao longo da carreira, com destaque para Scent of a Woman e Angels in America.",
   },
@@ -33,7 +33,7 @@ const awards = [
     title: "Emmy",
     image: emmyImg,
     wins: "2 vitórias",
-    nominations: "várias indicações",
+    nominations: "3 indicações",
     description:
       "Premiado por seus trabalhos na televisão, especialmente pela minissérie Angels in America.",
   },

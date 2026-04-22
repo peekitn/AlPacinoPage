@@ -16,8 +16,4 @@
   max-width: 500px;
 }
 
-/* bolinhas */
-.timeline-dot {
-  background-color: white !important;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
+/* Inseri o !important para forçar o meu estilo a ganhar prioridade sobre o do MUI */

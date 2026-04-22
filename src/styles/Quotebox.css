@@ -7,7 +7,7 @@
 /* container */
 .quote-track {
   display: flex;
-  width: max-content; /* 🔥 importante */
+  width: max-content; 
   animation: scroll 30s linear infinite;
 }
 
@@ -17,7 +17,7 @@
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.1);
   font-weight: bold;
-  white-space: nowrap; /* 🔥 evita quebra */
+  white-space: nowrap; 
   transition: 0.3s;
 }
 
@@ -26,7 +26,6 @@
   transform: scale(1.1);
 }
 
-/* 🔥 animação corrigida */
 @keyframes scroll {
   from {
     transform: translateX(0);
