@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import "../styles/Navbar.css";
 
 export default function Navbar() {
+  {/* Começa como nao rolado */}
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      {/* Quando a pagina foi rolada em pixels */}
       setScrolled(window.scrollY > 50);
     };
 
