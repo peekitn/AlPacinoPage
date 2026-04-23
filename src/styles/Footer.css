@@ -10,7 +10,6 @@
   margin: 0 auto;
 }
 
-/* título */
 .footer-title {
   color: white;
   margin-bottom: 10px;
@@ -22,7 +21,6 @@
   margin-bottom: 25px;
 }
 
-/* links */
 .footer-links {
   display: flex;
   justify-content: center;
@@ -40,7 +38,6 @@
   color: white;
 }
 
-/* copyright */
 .footer-copy {
   font-size: 0.8rem;
   color: #666;

@@ -17,7 +17,6 @@
   gap: 12px;
 }
 
-/* ITEM BASE */
 .gallery-item {
   position: relative;
   overflow: hidden;
@@ -25,21 +24,18 @@
   cursor: pointer;
 }
 
-/* IMAGEM */
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* com o objetivo de preencher todo o espaço */
   transition: 0.4s ease;
 }
 
-/* HOVER */
 .gallery-item:hover img {
   transform: scale(1.1);
-  filter: brightness(1.2);
 }
 
-/* TAMANHOS DIFERENTES */
+/*  AQUI QUE ENTRA O ARRAY DOS SIZES TAMANHOS DIFERENTES */
 .gallery-item.big {
   grid-column: span 2;
   grid-row: span 2;
@@ -58,7 +54,7 @@
   grid-row: span 1;
 }
 
-/* MOBILE: remove spans pra evitar bagunça */
+/* MOBILE */
 @media (max-width: 600px) {
   .gallery-item.big,
   .gallery-item.wide,

@@ -7,25 +7,27 @@ import TimelineContent from "@mui/lab/TimelineContent";
 
 import "../styles/Timeline.css";
 
+{/* isMobile começa como falso */}
 export default function CustomTimeline() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    {/* aqui é verificado se a largura é menor q 768 */}
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
+    handleResize(); {/* roda uma vez logo ao montar o componente */}
+    window.addEventListener("resize", handleResize); {/* Toda vez que muda de tamanho, atualiza o estado */}
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize); {/* evita vazamento de memória quando o estado desmonta */}
   }, []);
 
   return (
     <div className="timeline-section" id="timeline">
       <h2>Timeline</h2>
 
-      <Timeline position={isMobile ? "right" : "alternate-reverse"}>
+      <Timeline position={isMobile ? "right" : "alternate-reverse"}> {/* se for mobile, a posição vai pra direita, caso contrario, alternate - reverse */}
         
         <TimelineItem>
           <TimelineSeparator>

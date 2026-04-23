@@ -7,17 +7,17 @@
   z-index: 1000;
   transition: all 0.3s ease;
   padding: 20px 40px;
-  box-sizing: border-box; /* 🔥 evita cortar */
+  box-sizing: border-box; 
 }
 
-/* efeito scroll */
+/* para o efeito scroll */
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(8px);
   padding: 12px 40px;
 }
 
-/* container */
+
 .navbar-container {
   max-width: 1200px;
   width: 100%;
@@ -30,13 +30,12 @@
   color: white;
 }
 
-/* logo */
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* links desktop */
+
 .navbar-links {
   display: flex;
   gap: 24px;
@@ -54,7 +53,7 @@
   color: #ccc;
 }
 
-/* botão hamburguer */
+/* hamburguer */
 .menu-toggle {
   display: none;
   font-size: 2rem;
@@ -63,11 +62,11 @@
   line-height: 1;
 }
 
-/* ================= MOBILE ================= */
+/*  MOBILE */
 @media (max-width: 768px) {
 
   .navbar {
-    padding: 15px 16px; /* 🔥 corrige corte */
+    padding: 15px 16px; 
   }
 
   .navbar.scrolled {

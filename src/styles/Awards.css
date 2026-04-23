@@ -9,7 +9,6 @@
   margin-bottom: 50px;
 }
 
-/* grid */
 .awards-grid {
   display: flex;
   gap: 24px;
@@ -17,7 +16,6 @@
   flex-wrap: wrap;
 }
 
-/* card */
 .award-card {
   background: #1a1a1a;
   padding: 25px;
@@ -27,13 +25,12 @@
   cursor: pointer;
 }
 
-/* hover */
 .award-card:hover {
   transform: translateY(-10px);
   background: #222;
 }
 
-/* ícone */
+/* ícone dos prêmios */
 .award-icon {
   width: 60px;
   height: 60px;
@@ -41,13 +38,11 @@
   margin-bottom: 15px;
 }
 
-/* título */
 .award-card h3 {
   margin: 10px 0;
   font-size: 1.2rem;
 }
 
-/* subtítulo */
 .award-card span {
   display: block;
   font-size: 0.9rem;
@@ -55,7 +50,6 @@
   margin-bottom: 10px;
 }
 
-/* descrição */
 .award-card p {
   font-size: 0.9rem;
   color: #ccc;
@@ -76,7 +70,7 @@
   color: #ccc;
 }
 
-/* MOBILE FIRST (já está quase ok, mas melhora assim) */
+/* MOBILE */
 .awards-section {
   padding: 60px 20px;
 }
