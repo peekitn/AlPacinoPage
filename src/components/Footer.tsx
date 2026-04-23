@@ -14,8 +14,9 @@ export default function Footer() {
         <div className="footer-links">
           <a href="#hero">Home</a>
           <a href="#movies">Filmes</a>
-          <a href="#about">Carreira</a>
-          <a href="#awards">Prêmios</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#awards">Conquistas</a>
+          <a href="#gallery">Gaelria</a>
         </div>
 
         <p className="footer-copy">

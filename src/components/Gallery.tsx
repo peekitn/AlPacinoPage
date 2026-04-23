@@ -1,13 +1,16 @@
 import "../styles/Gallery.css";
 
-import img1 from "../assets/DevilAdvocate.jpg";
+import img1 from "../assets/AlPacinoOscar.jpg";
 import img2 from "../assets/AlPacinoHeat.jpg";
-import img3 from "../assets/Scarface.jpg";
-import img4 from "../assets/TheGodfather2.jpg";
-import img5 from "../assets/TheGodfather3.jpg";
-import img6 from "../assets/TheGodfather.jpg";
+import img3 from "../assets/AlPacinoEmmy.jpg";
+import img4 from "../assets/AlPacinoCoppola.jpg";
+import img5 from "../assets/AlPacinoDeniro.jpg";
+import img6 from "../assets/AlPacinoCarlito.jpg";
 
 const images = [img1, img2, img3, img4, img5, img6];
+
+// array de sizes
+const sizes = ["big", "wide", "big", "big", "big", "wide"];
 
 export default function Gallery() {
   return (
@@ -15,9 +18,9 @@ export default function Gallery() {
       <h2>Galeria</h2>
 
       <div className="gallery-grid">
-         {/* O map(img, index) => (...) map percorre cada item no array e entao para cada imagem (img), é criado um elemento na tela. Lembrando que o index é a posição do item no array */}
+        // map faz com que percorra cada item (img) e a partir dai cria um bloco para cada img, aplicando tamanhos diferentes
         {images.map((img, index) => (
-          <div key={index} className="gallery-item">
+          <div key={index} className={`gallery-item ${sizes[index]}`}>
             <img src={img} alt={`Al Pacino ${index}`} />
           </div>
         ))}

@@ -17,3 +17,15 @@
 }
 
 /* Inseri o !important para forçar o meu estilo a ganhar prioridade sobre o do MUI */
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .timeline-text {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .timeline-section {
+    padding: 60px 20px;
+  }
+}

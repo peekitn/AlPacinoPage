@@ -1,3 +1,4 @@
+/* RESET IMPORTANTE */
 .navbar {
   position: fixed;
   top: 0;
@@ -6,29 +7,36 @@
   z-index: 1000;
   transition: all 0.3s ease;
   padding: 20px 40px;
+  box-sizing: border-box; /* 🔥 evita cortar */
 }
 
+/* efeito scroll */
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(8px);
   padding: 12px 40px;
 }
 
+/* container */
 .navbar-container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   color: white;
 }
 
+/* logo */
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  letter-spacing: 1px;
 }
 
+/* links desktop */
 .navbar-links {
   display: flex;
   gap: 24px;
@@ -39,9 +47,60 @@
   text-decoration: none;
   color: white;
   font-size: 0.95rem;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
 .navbar-links li a:hover {
-  color: #cccccc;
+  color: #ccc;
+}
+
+/* botão hamburguer */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 6px;
+  line-height: 1;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 15px 16px; /* 🔥 corrige corte */
+  }
+
+  .navbar.scrolled {
+    padding: 10px 16px;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: white;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    background: rgba(0,0,0,0.95);
+
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: 0.3s;
+  }
+
+  .navbar-links.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
 }

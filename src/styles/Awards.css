@@ -75,3 +75,40 @@
   font-size: 0.8rem;
   color: #ccc;
 }
+
+/* MOBILE FIRST (já está quase ok, mas melhora assim) */
+.awards-section {
+  padding: 60px 20px;
+}
+
+.awards-grid {
+  gap: 16px;
+}
+
+.award-card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+/* TABLET */
+@media (min-width: 600px) {
+  .awards-grid {
+    justify-content: center;
+  }
+
+  .award-card {
+    width: 45%;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .awards-grid {
+    justify-content: center;
+  }
+
+  .award-card {
+    width: 260px;
+  }
+}
