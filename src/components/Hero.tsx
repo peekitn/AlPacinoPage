@@ -3,11 +3,11 @@ import hero from "../assets/Hero.jpg";
 import "../styles/Hero.css";
 
 export default function Hero() {
-  //visible comeca como falso
+  {/* visible comeca como falso*/}
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    //assim que o componente aparece na tela, espera 50ms e muda o visible pra true
+     {/* assim que o componente aparece na tela, espera 50ms e muda o visible pra true */}
     const timer = setTimeout(() => {
       setVisible(true);
     }, 50);

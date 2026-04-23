@@ -1,7 +1,7 @@
 {/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
 import "../styles/MovieCard.css";
 
-// vai receber dados externos, ou seja, do Movies.tsx
+ {/* vai receber dados externos, ou seja, do Movies.tsx */}
 export default function MovieCard({ title, year, image }) {
   return (
     <div className="movie-card">

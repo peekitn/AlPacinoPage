@@ -2,18 +2,18 @@ import { useEffect, useState } from "react";
 import "../styles/Navbar.css";
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false); //scroll
-  const [menuOpen, setMenuOpen] = useState(false); // menu hamburguer
+  const [scrolled, setScrolled] = useState(false); {/* scroll */}
+  const [menuOpen, setMenuOpen] = useState(false); {/* menu hamburguer */}
 
-  //aqui detecta o scroll
+  {/* aqui detecta o scroll */}
   useEffect(() => {
     const handleScroll = () => {
-      // se passou dos 50px, scrolled vira true e posteriormente muda o estilo
+       {/* se passou dos 50px, scrolled vira true e posteriormente muda o estilo */}
       setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
-    // aqui remove o evento quando o componente sai da tela
+   {/* aqui remove o evento quando o componente sai da tela */}
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

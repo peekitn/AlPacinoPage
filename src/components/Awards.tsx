@@ -4,7 +4,7 @@ import baftaImg from "../assets/bafta.png";
 import goldenImg from "../assets/GoldenGlobe.png";
 import emmyImg from "../assets/Emmy.png";
 
-// lista array, cada item eh um objeto
+{/* lista array, cada item eh um objeto */}
 const awards = [
   {
     title: "Oscar",
@@ -46,7 +46,7 @@ export default function Awards() {
       <h2>Prêmios & Conquistas</h2>
 
       <div className="awards-grid">
-        // map percorre cada item da lista de awards, entao para cada item, ele cria um card, lembrando que index eh a posicao do item na lista
+       {/* map percorre cada item da lista de awards, entao para cada item, ele cria um card, lembrando que index eh a posicao do item na lista */}
         {awards.map((award, index) => (
           <div key={index} className="award-card">
             <img src={award.image} alt={award.title} className="award-icon" />
