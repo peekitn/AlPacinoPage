@@ -15,7 +15,7 @@ export default function Quotebox() {
   return (
     <section className="quote-section">
       <div className="quote-track">
-        {/* words.concat(words) faz com que crie um novo array duplicado, dai a lista fica duplicada. Já no map(word, index) => (...) map percorre cada item no array e entao para cada frase (word), é criado um elemento na tela. Lembrando que o index é a posição do item no array */}
+        {/* words.concat(words) faz com que crie um novo array duplicado, dai a lista fica duplicada. Já no map(word, index) => (...) map percorre cada item no array e entao para cada frase (word), é criado um elemento na tela. Lembrando que o index é a posição do item no array up*/}
         {words.concat(words).map((word, index) => (
           <span key={index} className="quote-word">
             {word}
