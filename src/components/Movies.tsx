@@ -45,7 +45,7 @@ export default function Movies() {
         />
 
         <MovieCard
-          title="Devil Advocate"
+          title="Devil'S Advocate"
           year={1997}
           image={deviladvocate}
         />
