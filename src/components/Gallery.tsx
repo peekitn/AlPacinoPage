@@ -18,7 +18,7 @@ export default function Gallery() {
       <h2>Galeria</h2>
 
       <div className="gallery-grid">
-         {/* map faz com que percorra cada item (img) e a partir dai cria um bloco para cada img, aplicando tamanhos diferentes */}
+         {/* map faz com que percorra cada item (img) e a partir dai cria um bloco para cada img, aplicando tamanhos diferentesss */}
         {images.map((img, index) => (
           <div key={index} className={`gallery-item ${sizes[index]}`}>
             <img src={img} alt={`Al Pacino ${index}`} />
