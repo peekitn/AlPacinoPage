@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="hero-overlay" />
 
       {/* Conteudo */}
-      {/* aqui se o visible for true, entao entra a classe visiblee */}
+      {/* aqui se o visible for true, entao entra a classe visibleeee */}
       <div className={`hero-content ${visible ? "visible" : ""}`}>
         <h1 className="hero-title">Al Pacino</h1>
 
