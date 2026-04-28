@@ -1,5 +1,5 @@
+{/* ver de colocar imagem no lado dos textos, sepa ne */}
 import { useEffect, useState } from "react";
-
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -36,7 +36,6 @@ export default function CustomTimeline() {
             Al Pacino nasceu em Nova York, filho de imigrantes italianos, e cresceu no Bronx após a separação dos pais. Na adolescência, queria ser jogador de beisebol, mas acabou se interessando por atuação. Abandonou a escola aos 17 anos e passou por dificuldades financeiras, trabalhando em empregos simples enquanto estudava teatro. Teve uma juventude problemática, com envolvimento em brigas e contato precoce com álcool e drogas leves. Enfrentou rejeições no início da carreira e chegou a ficar sem-teto, mas encontrou apoio no estúdio HB e em seu mentor Charlie Laughton. Sua vida foi marcada por perdas pessoais importantes, como a morte de sua mãe e de seu avô no início dos anos 1960.
           </TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
           </TimelineSeparator>
