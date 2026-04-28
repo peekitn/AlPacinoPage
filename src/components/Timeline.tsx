@@ -1,4 +1,4 @@
-{/* ver de colocar imagem no lado dos textos, sepa ne em */}
+{/* ver de colocar imagem no lado dos textos, sepa ne em, ano esquece de criar um quiz.tsx */}
 import { useEffect, useState } from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
