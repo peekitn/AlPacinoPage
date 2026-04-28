@@ -1,4 +1,4 @@
-{/* ver de colocar imagem no lado dos textos, sepa ne */}
+{/* ver de colocar imagem no lado dos textos, sepa ne em */}
 import { useEffect, useState } from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
