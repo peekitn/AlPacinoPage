@@ -31,7 +31,7 @@ export default function Quiz() {
   const [finished, setFinished] = useState(false);
 
   {/* aqui recebe a opção clicada */}
-  function handleAnswer(option: string) {
+  function handleClick(option: string) {
     {/* e então é feito a verificação se houve acerto */}
     if (option === questions[currentQuestion].answer) {
       {/* caso positivo, mais um ponto */}
@@ -67,7 +67,7 @@ export default function Quiz() {
           <div className="quiz-options">
             {/* Aqui percorre as alternativas, para cada alternativa, é criado um botão */}
             {questions[currentQuestion].options.map((option, index) => (
-              <button key={index} onClick={() => handleAnswer(option)}>
+              <button key={index} onClick={() => handleClick(option)}>
                 {option}
               </button>
             ))}
@@ -86,3 +86,5 @@ export default function Quiz() {
     </section>
   );
 }
+
+{/* saving handleAnswer */}
