@@ -17,6 +17,7 @@ export default function Footer() {
           <a href="#timeline">Timeline</a>
           <a href="#awards">Conquistas</a>
           <a href="#gallery">Galeria</a>
+          <a href="#quiz">Quiz</a>
         </div>
 
         <p className="footer-copy">

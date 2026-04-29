@@ -44,6 +44,7 @@ export default function Navbar() {
           <li><a href="#timeline" onClick={handleClick}>Timeline</a></li>
           <li><a href="#awards" onClick={handleClick}>Conquistas</a></li>
           <li><a href="#gallery" onClick={handleClick}>Galeria</a></li>
+          <li><a href="#quiz" onClick={handleClick}>Quiz</a></li>
         </ul>
 
       </div>

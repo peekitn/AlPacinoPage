@@ -37,7 +37,6 @@ img{
   cursor: pointer;
   transition: 0.3s;
   font-size: 1rem;
-  margin-top: 20px;
 }
 
 .quiz-options button:hover,
