@@ -15,4 +15,4 @@ export default function MovieCard({ title, year, image }) {
   );
 }
 
-{/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
+{/* AAAPENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
