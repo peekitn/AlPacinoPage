@@ -2,9 +2,7 @@
 import "../styles/MovieCard.css";
 
  {/* vai receber dados externos, ou seja, do Movies.tsx */}
-export default function MovieCard(
-  { title, year, image }: { title: string; year: number | string; image: string }
-)  {
+export default function MovieCard({ title, year, image }) {
   return (
     <div className="movie-card">
       <img src={image} alt={title} className="movie-image" />
@@ -17,4 +15,4 @@ export default function MovieCard(
   );
 }
 
-{/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSXx */}
+{/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
