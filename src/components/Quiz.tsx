@@ -87,4 +87,4 @@ export default function Quiz() {
   );
 }
 
-{/* saving handleAnswer */}
+{/* saving handleAnswerrr */}
