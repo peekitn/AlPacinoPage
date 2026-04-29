@@ -3,7 +3,7 @@ import "../styles/MovieCard.css";
 
  {/* vai receber dados externos, ou seja, do Movies.tsx */}
 export default function MovieCard(
-  { title, year, image }: { title: string; year: string; image: string }
+  { title, year, image }: { title: string; year: number | string; image: string }
 )  {
   return (
     <div className="movie-card">
