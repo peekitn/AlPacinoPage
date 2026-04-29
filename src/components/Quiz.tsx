@@ -34,13 +34,17 @@ export default function Quiz() {
   {/* Confere se o quiz foi encerrado */}
   const [finished, setFinished] = useState(false);
 
+  {/* aqui recebe a opção clicada */}
   function handleAnswer(option: string) {
+    {/* e então é feito a verificação se houve acerto */}
     if (option === questions[currentQuestion].answer) {
+      {/* caso positivo, mais um ponto */}
       setScore(score + 1);
     }
-
+    {/* aqui joga para a proxima pergunta */}
     const next = currentQuestion + 1;
 
+    {/* verificação se já acabou */}
     if (next < questions.length) {
       setCurrentQuestion(next);
     } else {
@@ -48,6 +52,7 @@ export default function Quiz() {
     }
   }
 
+  {/* reset do quiz */}
   function restartQuiz() {
     setCurrentQuestion(0);
     setScore(0);
@@ -60,9 +65,11 @@ export default function Quiz() {
 
       {!finished ? (
         <div className="quiz-box">
+          {/* Pega a pergunta atual */}
           <h3>{questions[currentQuestion].question}</h3>
 
           <div className="quiz-options">
+            {/* Aqui percorre as alternativas, para cada alternativa, é criado um botão */}
             {questions[currentQuestion].options.map((option, index) => (
               <button key={index} onClick={() => handleAnswer(option)}>
                 {option}
