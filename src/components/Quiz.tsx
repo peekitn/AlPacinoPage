@@ -1,4 +1,5 @@
 import { useState } from "react";
+import halloween from "../assets/Halloween.jpg";
 import "../styles/Quiz.css";
 
 {/* lista array de perguntas */}
@@ -78,7 +79,7 @@ export default function Quiz() {
           <p>
             Você acertou {score} de {questions.length}
           </p>
-
+          <img src={halloween }/>
           <button onClick={restartQuiz}>Tentar novamente</button>
         </div>
       )}

@@ -13,7 +13,10 @@
   padding: 30px;
   border-radius: 12px;
 }
-
+img{
+  max-width: 100%;
+  border-radius: 12px;
+}
 .quiz-box h3 {
   margin-bottom: 25px;
 }
@@ -34,6 +37,7 @@
   cursor: pointer;
   transition: 0.3s;
   font-size: 1rem;
+  margin-top: 20px;
 }
 
 .quiz-options button:hover,
