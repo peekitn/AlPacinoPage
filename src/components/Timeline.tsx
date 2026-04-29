@@ -70,4 +70,4 @@ Ao longo da vida, teve vários relacionamentos, incluindo com Diane Keaton — s
     </div>
   );
 }
-{/* AAAlternating Timeline: https://mui.com/material-ui/react-timeline/ */}
+{/* AAAAlternating Timeline: https://mui.com/material-ui/react-timeline/ */}
