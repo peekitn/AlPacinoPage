@@ -15,12 +15,7 @@ const questions = [
   },
   {
     question: "Qual diretor escalou Al Pacino para The Godfather?",
-    options: [
-      "Martin Scorsese",
-      "Steven Spielberg",
-      "Francis Ford Coppola",
-      "Brian De Palma",
-    ],
+    options: ["Martin Scorsese", "Steven Spielberg", "Francis Ford Coppola", "Brian De Palma"],
     answer: "Francis Ford Coppola",
   },
 ];
