@@ -38,6 +38,7 @@
 }
 
 .hero-content.visible {
+  /*move o elemento no eixo vertica*/
   transform: translateY(0);
   opacity: 1;
 }

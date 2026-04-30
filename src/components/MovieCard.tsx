@@ -1,8 +1,17 @@
 {/* APENAS UM COMPONENTE PARA TRABALHAR NO MOVIES.TSX */}
 import "../styles/MovieCard.css";
 
- {/* vai receber dados externos, ou seja, do Movies.tsx */}
-export default function MovieCard({ title, year, image }) {
+type MovieCardProps = {
+  title: string;
+  year: number;
+  image: string;
+};
+
+export default function MovieCard({
+  title,
+  year,
+  image,
+}: MovieCardProps) {
   return (
     <div className="movie-card">
       <img src={image} alt={title} className="movie-image" />

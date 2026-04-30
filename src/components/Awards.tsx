@@ -4,7 +4,7 @@ import baftaImg from "../assets/bafta.png";
 import goldenImg from "../assets/GoldenGlobe.png";
 import emmyImg from "../assets/Emmy.png";
 
-{/* lista array, cada item eh um objeto */}
+{/*  array, cada item eh um objeto */}
 const awards = [
   {
     title: "Oscar",
